@@ -1,4 +1,4 @@
-## Delani Studio
+## DELANI STUDIO
 <!-- image -->
 ## Description
 This is a portifolio webpage for Delani studio. This webpage gives detailed information about Delani Studio therefore enabling a visitor to know more about Delani studio. The visitor is able to navigate through and see the services offered, see the previous projects and even contact Delani via a message.
@@ -19,7 +19,7 @@ You are welcome to make any changes to this webpage by following this process:
 - The user should be notified by their name through a pop up box that their message has been received.
 - The project should use mailchimp API to track emails and messages from the user.
 ## Deployed live link
-To see how the project works, visit the deployment link [here]()
+To see how the project works, visit the deployment link [here](https://fredrickwambua.github.io/delanistudio/)
 ## Technologies used
 - HTML5
 - CSS
