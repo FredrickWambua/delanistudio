@@ -31,6 +31,12 @@ p {
 .services-content {
     padding-top: 8rem;
 }
+.whatwedo {
+    margin-top: 30px;
+}
+.whatwedo-desc {
+    margin-top: 20px;
+}
 .do-icon {
     text-align: center;
 }
