@@ -1,5 +1,5 @@
 ## DELANI STUDIO
-<!-- image -->
+![logo](static/images/logo/logo.png "Delani Studio logo")
 ## Description
 This is a portifolio webpage for Delani studio. This webpage gives detailed information about Delani Studio therefore enabling a visitor to know more about Delani studio. The visitor is able to navigate through and see the services offered, see the previous projects and even contact Delani via a message.
 ## Author
