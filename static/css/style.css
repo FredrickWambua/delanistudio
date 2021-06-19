@@ -26,7 +26,10 @@ p {
     background-size: cover;
     color: white;
     margin-top: 50px;
-    height: 40vh;
+    height: 60vh;
+}
+.services-content {
+    padding-top: 8rem;
 }
 .portifolio {
     margin-top: 40px;
