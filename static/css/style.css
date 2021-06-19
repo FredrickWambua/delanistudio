@@ -5,13 +5,16 @@ p {
     text-align: center;
 }
 .intro {
-    height: 100vh;
+    height: 120vh;
     background-image: url(../images/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center; 
     color: white;
     padding-top: 15rem;
+}
+#mouse-click {
+    margin-top: 15rem;
 }
 .about {
     margin-top: 30px;
