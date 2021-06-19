@@ -5,12 +5,13 @@ p {
     text-align: center;
 }
 .intro {
-    height: 70vh;
+    height: 100vh;
     background-image: url(../images/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center; 
     color: white;
+    padding-top: 15rem;
 }
 .about {
     margin-top: 30px;
@@ -32,9 +33,19 @@ p {
     background-image: url(../images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 70vh;
     margin-top: 40px;
+}
+.form-info {
+    color: white;
+    display: block;
+    padding-top: 50px;
+    width: 60%;
+}
+input{
+    background-color: magenta;
 }
 .footer {
     text-align: center;
+    margin-top: 40px;
 }
