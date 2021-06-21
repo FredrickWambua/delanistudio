@@ -14,7 +14,7 @@ p {
     padding-top: 15rem;
 }
 #mouse-click {
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 .about {
     margin-top: 30px;
@@ -44,18 +44,38 @@ p {
     margin-top: 40px;
 
 }
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+}
 .contact {
     background-image: url(../images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
     margin-top: 40px;
 }
-.form-info {
+input[type=name],input[type=email], #message, button[type=submit]{
+    background: transparent;
     color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+
+.form-control::-webkit-input-placeholder { 
+    color: white; 
+  }
+.form-info {
     display: block;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 60%;
+    color: white;
+
 }
 input{
     background-color: magenta;
