@@ -19,7 +19,7 @@ p {
 .about {
     margin-top: 30px;
 }
-
+/* ===services start=== */
 .services {
     background-image: url(../images/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
@@ -31,6 +31,9 @@ p {
 .services-content {
     padding-top: 8rem;
 }
+/* ===services end==== */
+
+/* ====what we do start==== */
 .whatwedo {
     margin-top: 30px;
 }
@@ -44,8 +47,12 @@ p {
 .do-icon {
     text-align: center;
 }
+/* =====what we do end===== */
+
+/* ===portfolio styling start==== */
 .portifolio {
     margin-top: 40px;
+    position: relative;
 
 }
 #portfolio {
@@ -53,15 +60,130 @@ p {
     flex-wrap: wrap;
     align-items: center;
     position: relative;
+    text-align: center;
 }
 .col-md-3 img{
     max-width: 100%;
     max-height: 100%;
     margin-bottom: 30px;
 }
-#overlay {
+#work1{
+    position: relative;
+
+}
+.text{
     display: none;
 }
+
+#work1 .text{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+#work2{
+    position: relative;
+
+}
+
+#work2 .text{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+#work3{
+    position: relative;
+
+}
+
+#work3 .text{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+#work4{
+    position: relative;
+
+}
+
+#work4 .text{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+#work5{
+    position: relative;
+
+}
+
+#work5 .text{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}#work6{
+    position: relative;
+
+}
+
+#work6 .text{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+#work7{
+    position: relative;
+
+}
+
+#work7 .text{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+#work8{
+    position: relative;
+
+}
+
+#work8 .text{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+/* ===portfolio end ====*/
+
+/* ===contact start=== */
 .contact {
     background-image: url(../images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
