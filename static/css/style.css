@@ -36,6 +36,10 @@ p {
 }
 .whatwedo-desc {
     margin-top: 20px;
+
+}
+#design, #dev, #product {
+    display: none;
 }
 .do-icon {
     text-align: center;
