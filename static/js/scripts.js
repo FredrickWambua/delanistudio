@@ -28,16 +28,16 @@ $(document).ready(function(){
 // });
 
 $(document).ready(function () {
-    $('.images').hover(function () {
+    $(".portfolio .images").hover(function () {
         $(this).stop().animate({
             opacity: .4
         }, 200);
-        $("#overlay").removeClass('hide');
+        $(".text").removeClass("hide");
     }, function () {
         $(this).stop().animate({
             opacity: 1
         }, 500);
-        $('.text').addClass('hide');
+        $(".hide").addClass("text");
     });
     
 });
