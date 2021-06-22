@@ -1,13 +1,13 @@
 $(document).ready(function(){
    $("#imagedesign").click(function(){
-       $("#design").show(1500)
+       $("#design").show(1000)
     //    $("#design").fadeOut()
    });
      $("#imagedev").click(function(){
-       $("#dev").show(1500)
+       $("#dev").show(1000)
    });
    $("#imageproduct").click(function(){
-    $("#product").show(1500)
+    $("#product").show(1000)
 });
 });
 
