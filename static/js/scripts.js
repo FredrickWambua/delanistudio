@@ -1,13 +1,18 @@
 $(document).ready(function(){
    $("#imagedesign").click(function(){
-       $("#design").show(1000)
-    //    $("#design").fadeOut()
+       $("#design").show();
+       $("#dev").hide();
+       $("#product").hide();
    });
      $("#imagedev").click(function(){
-       $("#dev").show(1000)
+       $("#dev").show();
+       $("#design").hide();
+       $("#product").hide();
    });
    $("#imageproduct").click(function(){
-    $("#product").show(1000)
+    $("#product").show();
+    $("#dev").hide();
+    $("#design").hide();
 });
 });
 
