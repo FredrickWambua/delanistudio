@@ -11,17 +11,32 @@ $(document).ready(function(){
 });
 });
 
-$(document).ready(function(){
-    $(".images").animate({
-        opacity: 1
+// $(document).ready(function(){
+//     $(".images").hover(function(){
+//         $(this).stop().animate({opacity: .4},200);
+//         $(".text").show();
+//     }, function(){
+//         $(this).stop().animate({opacity:1},500);
+       
+//     });
+  
+// });
+
+$(document).ready(function () {
+    $('.images').hover(function () {
+        $(this).stop().animate({
+            opacity: .4
+        }, 200);
+        $("#overlay").removeClass('hide');
+    }, function () {
+        $(this).stop().animate({
+            opacity: 1
+        }, 500);
+        $('.text').addClass('hide');
     });
-    $(".images").hover(function(){
-        $(this).stop().animate({opacity: .4},200);
-    }, function(){
-        $(this).stop().animate({opacity:1},500)
-    });
-    $()
+    
 });
+
 
 $(document).ready(function(){
     $("form#theform").submit(function(event){
